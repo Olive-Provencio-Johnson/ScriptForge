@@ -20,7 +20,14 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      new HtmlWebpackPlugin({
+        template: './index.html', 
+        title: 'Text Editor',
+      }), 
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js', 
+      }), 
     ],
 
     module: {
