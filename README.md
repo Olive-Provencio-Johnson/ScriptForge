@@ -2,15 +2,22 @@
 
 
 ## Description 
-ScriptForge is a text editor 
+ScriptForge is a text editor that runs in the browser. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also function offline.
 
 
 ## Table of Contents
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
+- [Link](#Link)
 - [Credits](#credits)
 - [License](#license)
 
-## Screenshots
+
+## Screenshot
+![JATE](./client/src/images/screenshot.jpg)
+
+
+## Link
+[https://murmuring-bayou-03123-fe636803dc2a.herokuapp.com/](https://murmuring-bayou-03123-fe636803dc2a.herokuapp.com/)
 
 
 ## Credits 
@@ -20,7 +27,7 @@ Starter code for ScriptForge was provided by the University of Washington Coding
 ## License 
 MIT License
 
-Copyright (c) 2023 Allyson Gonzales
+Copyright (c) 2023 Olive Provencio-Johnson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
