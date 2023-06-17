@@ -1,0 +1,40 @@
+{
+  "icons": [
+    {
+      "src": "./assets/icons/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_255x255.png",
+      "sizes": "255x255",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_193x193.png",
+      "sizes": "193x193",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon_97x97.png",
+      "sizes": "97x97",
+      "type": "image/png"
+    }
+  ],
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./",
+  "description": "A PWA Text Editor Web Application"
+}

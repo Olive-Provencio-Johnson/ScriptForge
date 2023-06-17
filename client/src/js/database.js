@@ -23,8 +23,6 @@ export const putDb = async (content) => {
   return result;
 };
 
-
-
 // Added logic for a method that gets all the content from the database
 export const getDb = async () => {
   console.log('Successful GET from database');
@@ -36,8 +34,6 @@ export const getDb = async () => {
   console.log('result.value', result);
   return result;
 };
-
-
 
 // Added logic for a method that posts content to the database
 export const postDb = async (content) => {
