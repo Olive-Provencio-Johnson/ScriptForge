@@ -40,6 +40,11 @@ const assetCache = new CacheFirst({
 });
 
 registerRoute(
+  ({ request }) => request.mode === 'navigate',
+  pageCache
+).catch(error => console.log('Error registering route: ', error));
+
+registerRoute(
   ({ request }) => request.destination === 'script' || request.destination === 'style',
   assetCache
-);
+).catch(error => console.log('Error registering route: ', error));
