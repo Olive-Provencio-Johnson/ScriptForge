@@ -12,4 +12,6 @@ module.exports = (app) => {
   app.put('/:file', (req, res) => 
     res.sendFile(path.join(__dirname, '../client/dist/index.html'))
   );
+
+  app.use('/', express.static(path.join(__dirname, 'dist')));
 }
